@@ -1,1 +1,33 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+div#wall #tag-2 {
+    display: none;
+}
+
+div#wall #tag-3.slick.wicked {
+    display: none;
+}
+
+#wall .parent #tag-4 {
+    display: none;
+}
+
+div#wall div.parent #tag-5.slick {
+    display: none;
+}
+
+body div#wall div.parent div div#tag-6:last-child {
+    display: none;
+}
+
+body div#wall div.parent div div#tag-7.slick {
+    display: none;
+}
+
+/* The code below will get rid of tags 4-7, but it fails the npm test, as it needs 300 bytes worth of code to this file :( 
+    #wall .parent {
+    display: none;
+} */
